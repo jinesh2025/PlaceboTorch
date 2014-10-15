@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="#ffffff">
+    <ToggleButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="New ToggleButton"
+            android:id="@+id/toggleButtonToarch"
+            android:background="@drawable/btn"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textOff=""
+            android:textOn=""
+            android:checked="false"/>
+</RelativeLayout>
